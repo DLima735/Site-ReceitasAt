@@ -1,0 +1,106 @@
+/* Reset básico */
+body, h1, h2, h3, p, ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Fonte e cores */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #FF5722;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.caixa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover {
+  color: #FFC107; /* Amarelo para hover */
+}
+
+/* Seções de receitas */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.receita {
+  background: #fff;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.receita .titulo {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #FF5722;
+  text-align: center;
+}
+
+.receita .banner {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.receita ul, .receita ol {
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+
+.receita ul li, .receita ol li {
+  margin-bottom: 0.5rem;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  background: #FF5722;
+  color: #fff;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+
